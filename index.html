@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerdeFlow - Solicite uma Proposta</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>VerdeFlow</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="apresentacao" id="inicio">
+        <h2>Soluções criativas para o seu negócio</h2>
+        <p>Transformamos suas ideias em projetos digitais com criatividade, cuidado e inovação.</p>
+    </section>
+
+    <main id="contato">
+        <div class="formulario">
+            <h2>Solicite uma Proposta Gratuita</h2>
+            <p class="descricao">Preencha o formulário e entraremos em contato com você!</p>
+
+            <form action="#" method="get">
+
+                <div class="linha">
+                    <div class="campo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                </div>
+
+                <div class="linha">
+                    <div class="campo">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa">
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(15) 99999-9999">
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="servico">Qual serviço você precisa?</label>
+                    <select id="servico" name="servico" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="site">Criação de Sites</option>
+                        <option value="design">Design Gráfico</option>
+                        <option value="marketing">Marketing Digital</option>
+                        <option value="consultoria">Consultoria</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="orcamento">Orçamento Estimado</label>
+                    <input type="text" id="orcamento" name="orcamento" placeholder="R$ - Valor aproximado">
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Conte-nos sobre seu projeto</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva suas ideias e objetivos..."></textarea>
+                </div>
+
+                <div class="termos">
+                    <input type="checkbox" id="termos" name="termos">
+                    <label for="termos">Aceito receber novidades e comunicações da VerdeFlow.</label>
+                </div>
+
+                <button type="submit">ENVIAR PROPOSTA</button>
+            </form>
+        </div>
+    </main>
+
+    <section class="sobre" id="sobre">
+        <h2>Sobre a VerdeFlow</h2>
+        <p>Somos uma empresa fictícia dedicada à criação de soluções digitais modernas, acessíveis e criativas para diferentes negócios.</p>
+    </section>
+
+    <footer>
+        <div class="rodape">
+            <div class="rodape-info">
+                <h3>VerdeFlow</h3>
+                <p>Criatividade e inovação para transformar suas ideias em realidade.</p>
+            </div>
+
+            <div class="rodape-links">
+                <h3>Links Rápidos</h3>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#contato">Solicitar Proposta</a>
+            </div>
+
+            <div class="rodape-contato">
+                <h3>Contato</h3>
+                <p>contato@verdeflow.com</p>
+                <p>(15) 99999-9999</p>
+                <p>São Paulo, Brasil</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 VerdeFlow - Todos os direitos reservados.</p>
+            <p>Desenvolvido para fins educacionais.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
